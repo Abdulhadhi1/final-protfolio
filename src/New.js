@@ -12,6 +12,7 @@ import mysql from './mysql.png';
 import mongo from './mongo.png';
 import aws from './aws.png';
 import java from './java.png';
+import note from './note.png';
 
 
 
@@ -112,7 +113,7 @@ function New() {
           <div class="links">
             <a href="#Contact" class="btn btn-primary">Let's Talk</a>
            
-         <a href="https://drive.google.com/file/d/1ftXO703t4s48IBw3PtzzY9wnLk5GjICJ/view?usp=share_link" class="btn btn-primary" target="_blank" style= {{ color: "black" }}>Download Cv</a>   
+         <a href="https://drive.google.com/file/d/1e2r_bDS9aetWTj6p6CspNhmkKQdZBQ2H/view" class="btn btn-primary" target="_blank" style= {{ color: "black" }}>Download Cv</a>   
           </div>
         </div>
       </div>
@@ -194,6 +195,28 @@ function New() {
               target="_blank">View Project</a>
           </div>
         </div>
+
+
+        <div class="project">
+          <div class="thubmnail">
+          <img src={note} alt="" />
+          </div>
+          <h2>Daily Notes</h2>
+          <p>
+          Daily notes app created using React Js,Node js,MongoDB and Redux. User can signup and login into this app and can create notes, edit notes, edit profiles and can search for the particular notes
+          </p>
+          <div class="links">
+            <a href="https://github.com/Abdulhadhi1/dailynotes-frontend" class="btn btn-primary" target="_blank">Front-End</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/Abdulhadhi1/dailynotes-backend" class="btn btn-primary" target="_blank">Back-End</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a
+              href="https://dailynotess.netlify.app/"
+              class="btn btn-primary"
+              target="_blank">View Project</a>
+          </div>
+        </div>
+
+
+        
      
       </div>
       </div>
